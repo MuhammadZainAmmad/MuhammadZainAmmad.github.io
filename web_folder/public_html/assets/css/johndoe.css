@@ -11380,7 +11380,7 @@ pre .code {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 180px;
+  max-width: 100px; /* original: 180 px */
 }
 
 .social-icons .social-link {
@@ -11500,14 +11500,15 @@ pre .code {
 
 .footer {
   background: #17263C;
+  text-align: center;
 }
 
 .header {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/cover_1.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/cover_1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
